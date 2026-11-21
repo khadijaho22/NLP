@@ -55,6 +55,4 @@ LLM judges (4-bit): Qwen3-8B, Llama-3.1-8B-Instruct. LoRA judge: Qwen2.5-3B-Inst
 Check each model's licence before redistribution. No result depends on paid access: dataset generation used a free-tier API
 and its outputs are cached in the repository.
 
-## Disclosure
-Code in this repository was written with the help of an AI assistant (Claude). It was tested on unit-level fixtures and
-tiny local models; results must be checked by the author. All references in the report must be verified manually.
+
