@@ -1,0 +1,22 @@
+# Core (all notebooks)
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+tqdm
+datasets>=2.19
+huggingface_hub
+
+# Baselines and LoRA judge (notebooks 02, 03, 05) - tested with transformers 5.x, torch 2.x, peft 0.2x
+torch>=2.3
+transformers>=4.51          # Qwen3 support
+sentence-transformers>=3.0
+bert-score>=0.3.13
+accelerate
+peft>=0.11
+bitsandbytes>=0.43          # 4-bit loading on the Colab / Kaggle GPU (not needed on CPU)
+
+# Dataset creation only (notebook 01)
+google-genai
+openai                      # optional alternative provider
+scikit-learn
